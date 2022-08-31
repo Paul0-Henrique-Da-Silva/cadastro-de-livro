@@ -5,12 +5,15 @@ const mysql = require('mysql')
 
 const app = express()
 
+//ler o bory
 app.use(
     express.urlencoded({
         extended: true
     })
 )
-app.use(express.json())
+
+// toda requisição do body é transformada em obj json
+app.use(express.json()) 
 
 app.engine('handlebars', engine())
 app.set('view engine', 'handlebars')
