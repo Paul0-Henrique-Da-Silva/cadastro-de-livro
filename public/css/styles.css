@@ -23,7 +23,8 @@
     text-align: center;
   }
   
-  .form {
+  .form
+  .books-container {
     width: 450px;
     margin: 0 auto;
   }
@@ -44,10 +45,6 @@
   }
   
   /* BOOKS */
-  .books-container {
-    width: 450px;
-    margin: 0 auto;
-  }
   
   .books-container div {
     border-bottom: 1px solid #ccc;
@@ -57,4 +54,22 @@
   
   .bold {
     font-weight: bold;
+  }
+
+  #book-page {
+    padding: 2em;
+  }
+
+  #book-page .container {
+    text-align: center;
+  }
+
+  .action {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .action a {
+    margin-right: 1em;
   }
