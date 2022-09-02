@@ -1,7 +1,5 @@
 # cadastro-de-livro
-## Técnologias usadas
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, Docker
+
 ## Instalando Dependências
 > Backend
 ```bash
