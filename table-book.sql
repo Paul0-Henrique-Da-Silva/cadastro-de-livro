@@ -1,4 +1,7 @@
+CREATE DATABASE IF NOT EXISTS nodemysql;
+
 USE nodemysql;
+
 CREATE TABLE books (
   id INT PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(150),
