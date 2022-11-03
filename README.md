@@ -1,7 +1,6 @@
 # cadastro-de-livro
 
 ## Instalando Dependências
-> Backend
 ```bash
 cd cadastro-de-livro
 npm install
